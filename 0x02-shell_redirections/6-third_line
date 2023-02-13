@@ -1,2 +1,2 @@
 #!/bin/bash
-cat a | awk 'NR==3'
+cat a | head -2 | tail -1
